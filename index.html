@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="https://use.typekit.net/gdr5fwj.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    document.getElementById("year").innerHTML = (new Date().getFullYear());
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("year").innerHTML = (new Date().getFullYear());
+    });
   </script>
 </head>
 <body>
