@@ -1,1 +1,36 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello! I'm Damien Williams</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hello! I'm Damien Williams</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li> -->
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>hello, I’m Damien Williams, a Senior Front-End
+            Developer based in Cape Town, South Africa. I create
+            and develop world-class user experiences.
+            </h1>
+        </section>
+    </main>
+    <footer>
+      <p> &copy; <span id="year"></span> Damien Williams.</p>
+
+    </footer>
+</body>
+<script>
+  document.getElementById("year").innerHTML = (new Date().getFullYear());
+
+</script>
+</html>
