@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 14.98 12.35">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #00bddc;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="0" width="14.98" height="12.35"/>
+    </clipPath>
+  </defs>
+  <polygon class="cls-3" points="2.63 0 14.98 0 12.36 12.35 0 12.35 2.63 0"/>
+  <polygon class="cls-3" points="3.75 2.47 12.81 2.47 11.23 9.88 2.18 9.88 3.75 2.47"/>
+  <g class="cls-1">
+    <path class="cls-4" d="M4.8,10.37l1.57.1-.13.52h-3.42L5.19,1.46h3.42l-.13.52-1.62.1-2.05,8.29ZM9.52,3.48c.31-1.24.29-1.42-.6-1.51l.13-.51c2.31.07,2.66.49,2.42,1.49l-.44,1.79c-.22.88.53,1.2,1.15,1.21l-.14.56c-.62,0-1.53.33-1.74,1.21l-.44,1.79c-.25,1-.81,1.42-3.16,1.49l.13-.51c.94-.09,1.04-.28,1.35-1.51l.33-1.33c.22-.91,1.42-1.29,2.15-1.32l.04-.17c-.71-.04-1.72-.42-1.5-1.32l.33-1.33Z"/>
+  </g>
+</svg>
