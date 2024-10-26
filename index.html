@@ -1,58 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Hello! I'm Damien</title>
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/gdr5fwj.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      body {
-        font-family: "cardea", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: #333;
-        background-color: #f9f9f9;
-        margin: 0;
-        padding: 0;
-      }
-      .logo {
-        background: #00bddb;
-        padding: 10px;
-        font-weight: 900;
-        transform: skewX(-10deg);
-      }
-    </style>
+  <title>Hello! I'm Damien</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hello! I'm Damien Williams, a UX Engineer based in Cape Town, South Africa. I create and develop world-class user experiences.">
+  <link rel="icon" type="image/x-icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/gdr5fwj.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    document.getElementById("year").innerHTML = (new Date().getFullYear());
+  </script>
 </head>
 <body>
-    <header class="invisible">
-        <h1>Hello! I'm Damien</h1>
-    </header>
-    <nav>
-        <ul>
-            <!-- <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li> -->
-        </ul>
-    </nav>
-    <main class="flex items-center h-screen flex-row-reverse">
-        <section class="flex items-start gap-4 text-6xl lg:text-4xl w-[50rem] mx-auto pb-64 flex-row-reverse px-2">
-            <div class="logo pb-3 lg:pb-4 lg:size-16 flex items-center justify-center text-white text-5xl ">
-              <span>[}</span>
-            </div>
-            <h1 class="pt-10">
-              <span style="font-variant: small-caps;">hello</span>, I’m <span style="color:#00bddb">Damien Williams</span>, a <span class="italic">UX Engineer</span> based in <span class="italic">Cape Town, South Africa</span>. I create
-            and develop world-class user experiences.
-            </h1>
-        </section>
+  <header class="invisible">
+    <h1>Hello! I'm Damien</h1>
+  </header>
+  <!-- <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav> -->
+  <main class="flex items-center h-screen flex-row-reverse">
+      <section class="flex items-start gap-4 text-6xl lg:text-4xl w-[50rem] mx-auto pb-64 flex-row-reverse px-2">
+        <div class="logo pb-3 lg:pb-4 lg:size-16 flex items-center justify-center text-white text-5xl ">
+          <span>[}</span>
+        </div>
+        <h1 class="pt-10">
+          <span class="small-caps">hello</span>, I’m <span class="text-aqua">Damien Williams</span>, a <span class="italic">UX Engineer</span> based in <span class="italic">Cape Town, South Africa</span>. I create
+        and develop world-class user experiences.
+        </h1>
+      </section>
     </main>
     <footer class="text-center py-2">
       <p> &copy; <span id="year"></span> Damien Williams.</p>
-
     </footer>
 </body>
-<script>
-  document.getElementById("year").innerHTML = (new Date().getFullYear());
-</script>
 </html>
