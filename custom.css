@@ -13,7 +13,6 @@ body {
 }
 .logo {
   background: #00bddb;
-  padding: 10px;
   font-weight: 900;
   transform: skewX(-10deg);
 }
