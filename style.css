@@ -580,6 +580,10 @@ video {
   height: 100vh;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .w-\[50rem\] {
   width: 50rem;
 }
