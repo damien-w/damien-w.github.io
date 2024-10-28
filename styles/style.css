@@ -756,6 +756,10 @@ a:hover::after {
     padding-bottom: 16rem;
   }
 
+  .md\:text-left {
+    text-align: left;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
